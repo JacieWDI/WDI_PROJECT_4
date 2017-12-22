@@ -2,8 +2,6 @@ import React from 'react';
 import Axios from 'axios';
 import { Link } from 'react-router-dom';
 
-// import Comment from '../utility/Comment';
-
 import Auth from '../../lib/Auth';
 import DinnerCommentForm from './DinnerCommentForm';
 
