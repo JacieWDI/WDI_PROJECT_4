@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import Auth from '../../lib/Auth';
 import DinnerCommentForm from './DinnerCommentForm';
+import DeleteCommentForm from './DeleteCommentForm';
 
 class DinnersShow extends React.Component {
   state = {
@@ -84,11 +85,11 @@ class DinnersShow extends React.Component {
               </div>
             );
           })}
-          { this.state.dinner.createdBy && Auth.isAuthenticated() && Auth.getPayload().userId === this.state.dinner.createdBy.id && <Link to={`/dinners/${this.state.dinner.id}/edit`} className="standard-button">Edit your dinner
-          </Link>}
-          {' '}
+          {/* { this.state.dinner.createdBy && Auth.isAuthenticated() && Auth.getPayload().userId === this.state.dinner.createdBy.id && <Link to={`/dinners/${this.state.dinner.id}/edit`} className="standard-button">Edit your dinner
+          </Link>} */}
+          {/* {' '}
           { this.state.dinner.createdBy && Auth.isAuthenticated() && Auth.getPayload().userId === this.state.dinner.createdBy.id && <button className="delete-button" onClick={this.deleteDinner}>Delete your dinner
-          </button>}
+          </button>} */}
         </div>
 
         {/* <div className="row">
@@ -117,13 +118,20 @@ class DinnersShow extends React.Component {
           })}
         </div>
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <DinnerCommentForm
               comment={this.state.comment}
               handleChange={this.handleChange}
               handleSubmit={this.handleSubmit}
             />
           </div>
+        </div>
+        <div className="row">
+          <DeleteCommentForm
+            deletecomment={this.state.comment.remove}
+            handleChange={this.handleChange}
+            handleSubmit={this.handleSubmit}
+          />
         </div>
       </div>
     );
