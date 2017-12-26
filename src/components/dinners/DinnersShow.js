@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import Auth from '../../lib/Auth';
 import DinnerCommentForm from './DinnerCommentForm';
-import DeleteCommentForm from './DeleteCommentForm';
+// import DeleteCommentForm from './DeleteCommentForm';
 
 class DinnersShow extends React.Component {
   state = {
@@ -126,13 +126,13 @@ class DinnersShow extends React.Component {
             />
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <DeleteCommentForm
             deletecomment={this.state.comment.remove}
             handleChange={this.handleChange}
             handleSubmit={this.handleSubmit}
           />
-        </div>
+        </div> */}
       </div>
     );
   }

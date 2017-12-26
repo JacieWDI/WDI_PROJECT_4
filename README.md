@@ -3,7 +3,7 @@
 
 
 ## Brief
-We were set a challenge to design and build a MERN stack app. 
+As the final project of the GA Web Developmnent Immersive course, we were set a challenge to design and build a MERN stack app. 
 
 Technical requirements:
 - Build a full-stack application
@@ -57,11 +57,11 @@ Clone or download the repository and navigate to it's root in the terminal.
 
 ## Overview
 
-For the final project of the course, we chose to complete this as a pair. We both saw advantages of when working in a group project, however, as we were similar levels, there was an added advantage of being able to learn and code together and consolidating learning from the classes of the final module.
+I chose to work with a classmate on this project, as a pair. We both saw advantages of working in a group project, however, as we were similar levels, there was an added advantage of being able to learn and code together and consolidating learning from the classes of the final module.
 
-During planning stage of the project, we wireframed and planned as a pair on a paper before transferring the agreed content into Trello and Adobe XD.
+During planning stage of the project, we wireframed and planned as a pair on paper before transferring the agreed content into Trello and Adobe XD.
 
-Several weeks prior to project start, we had already discussed the idea creating an app where users can host Christmas dinner but who had spare places/seats at their table could produce a dinner event and for other attendees who were away from home over the festive holidays to be able to contact them and join them for dinner.  The idea came from the fact that we have international friends in London who sometimes have to come together to organise Christmas celebrations as other people travel home. The concept would be aimed at professionals who work in London.  We specifically decided to base the application around Christmas dinner in London as this would be scalable to other large international cities and for other dinner events/celebrations throughout the year.
+Several weeks prior to project start, we had already discussed the idea of creating an application where users could host Christmas dinner but possibly had space at their table to iinvite others. The app would allow them to produce a dinner event and for other potential guests, who were away from home over the festive holidays to be able to contact them and join them for dinner.  The idea came from the fact that we have international friends in London who sometimes have to come together to organise Christmas celebrations as other people travel home. The concept would be aimed at professionals who work in London.  We specifically decided to base the application around Christmas dinner in London as this would be scalable to other large international cities and for other dinner events/celebrations throughout the year.
 
 ![](src/assets/Trello.png)
 
@@ -148,8 +148,8 @@ Image 11: User Homepage
 
 ## Challenges
 
-- Embedded referencing in React with User as second model/resource
-- 
+- Embedded referencing in React with User as second model/resource. 
+- Additional GoogleMap API features. From user experience perspective, showing and hiding markers when altering the radius slider.
 
 
 ## Wins
