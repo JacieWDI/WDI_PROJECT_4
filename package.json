@@ -5,7 +5,8 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn build && node index",
+    "postinstall":"yarn build",
+    "start": "node index",
     "start:client": "webpack-dev-server",
     "start:server": "nodemon",
     "build": "webpack -p",
